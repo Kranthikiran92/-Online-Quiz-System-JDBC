@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>SelectSubjectServlet</servlet-name>
+        <servlet-class>SelectSubjectServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SelectSubjectServlet</servlet-name>
+        <url-pattern>/SelectSubjectServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>htmlServlet</servlet-name>
+        <servlet-class>HtmlServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>htmlServlet</servlet-name>
+        <url-pattern>/HtmlServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CssServlet</servlet-name>
+        <servlet-class>CssServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CssServlet</servlet-name>
+        <url-pattern>/CssServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>jsServlet</servlet-name>
+        <servlet-class>JavaScriptServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>jsServlet</servlet-name>
+        <url-pattern>/JavaScriptServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>submithtml</servlet-name>
+        <servlet-class>SubmitHtmlQuiz</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>submithtml</servlet-name>
+        <url-pattern>/SubmitHtmlQuiz</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>submitcss</servlet-name>
+        <servlet-class>SubmitCssQuiz</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>submitcss</servlet-name>
+        <url-pattern>/SubmitCssQuiz</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>submitjs</servlet-name>
+        <servlet-class>SubmitJavascriptQuiz</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>submitjs</servlet-name>
+        <url-pattern>/SubmitJavascriptQuiz</url-pattern>
+    </servlet-mapping>
+    
+   
+</web-app>

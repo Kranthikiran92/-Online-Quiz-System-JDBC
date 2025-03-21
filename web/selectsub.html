@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="courses.css">
+        <style>
+            body{
+                background-image: url('https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2020/05/Logo.png?fit=1920%2C990&ssl=1');
+                background-position: top;
+            }
+        </style>
+    </head>
+    <body>
+    
+    <h1>Welcome to the Online Quiz System</h1>
+   
+
+    <div id="select">
+    <form action="SelectSubjectServlet" method="post" >
+        <label for="subject">Select  Course:</label>
+        <select id="subject" name="subject">
+             <option value=" ">select</option>
+            <option value="Html">Html</option>
+            <option value="CSS">Css</option>
+            <option value="Javascript">Javascript</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Start Quiz">
+    </form>
+        </div>
+</body>
+</html>
